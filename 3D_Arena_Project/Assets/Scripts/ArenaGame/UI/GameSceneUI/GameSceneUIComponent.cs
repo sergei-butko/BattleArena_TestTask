@@ -57,8 +57,6 @@ namespace ArenaGame.UI.GameSceneUI
 
         public void RestartGame()
         {
-            Time.timeScale = 1; // Unfreeze actions in scene
-
             _mainInterfaceActiveState = true;
             _pauseWindowActiveState = false;
             _failureWindowActiveState = false;
@@ -75,6 +73,8 @@ namespace ArenaGame.UI.GameSceneUI
 
         private void Awake()
         {
+            Time.timeScale = 1; // Unfreeze actions in scene
+
             UpdateMenusVisibility();
         }
 
