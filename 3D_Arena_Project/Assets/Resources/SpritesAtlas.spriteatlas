@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpritesAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 5c8b7756c477b4b97b4c6e3be13100f8, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 39cc2431d2c274003a12ceacdd852062: 21300000
+    - 5af142912b8704456ad80dd132192931: 21300000
+    - 36b63f567dfaa4a8096227d800026e01: 21300000
+    - d31893960933b4f41a6fc81ba91ec001: 21300000
+    - 98e047d6dc34442b5829f029cca24f13: 21300000
+    - c7c7a6694232e462f83841b2c94779e5: 21300000
+    - 732bf00aecedd4278926add9298a8f3a: 21300000
+    - 5cb4358d5fc7944219e0c12df6ee5cb4: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 39cc2431d2c274003a12ceacdd852062, type: 3}
+  - {fileID: 21300000, guid: 5af142912b8704456ad80dd132192931, type: 3}
+  - {fileID: 21300000, guid: 36b63f567dfaa4a8096227d800026e01, type: 3}
+  - {fileID: 21300000, guid: d31893960933b4f41a6fc81ba91ec001, type: 3}
+  - {fileID: 21300000, guid: 98e047d6dc34442b5829f029cca24f13, type: 3}
+  - {fileID: 21300000, guid: c7c7a6694232e462f83841b2c94779e5, type: 3}
+  - {fileID: 21300000, guid: 732bf00aecedd4278926add9298a8f3a, type: 3}
+  - {fileID: 21300000, guid: 5cb4358d5fc7944219e0c12df6ee5cb4, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - small-menu-btn
+  - controls-fire
+  - progress-bar-fill
+  - pause-btn
+  - controls-ulta
+  - progress-bar-background
+  - menu-btn
+  - controls-joystick
+  m_RenderDataMap: {}
+  m_Tag: SpritesAtlas
+  m_IsVariant: 0
