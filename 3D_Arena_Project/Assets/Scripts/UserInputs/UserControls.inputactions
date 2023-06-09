@@ -1,0 +1,94 @@
+{
+    "name": "UserControls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "4caf12c5-2a8c-455c-845c-f0dff587104f",
+            "actions": [
+                {
+                    "name": "LookAround",
+                    "type": "PassThrough",
+                    "id": "254ae6af-bdee-4a43-8214-2e421bd96461",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Move",
+                    "type": "PassThrough",
+                    "id": "4142bf53-851c-4175-ace9-3e16e9e25e26",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "9cc77e46-832a-43ce-a2d9-685127d708d1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ulta",
+                    "type": "Button",
+                    "id": "c5ef2718-056a-49aa-8da2-4c86d6da7297",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0a5eded3-8b0a-4d04-bad8-b726aa9b835e",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LookAround",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b4339a28-74d7-4e68-a9e3-bd705f9c9837",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "80901170-7a77-48fa-9528-c4ee3a8830e8",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "be033a1e-0a92-4f52-b6eb-222c0e42ede5",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ulta",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
